@@ -1,0 +1,49 @@
+.footer__contact__list {
+    list-style-type: none;
+    padding-top: 20px;
+  }
+  
+  .footer__contact__street {
+    font-style: normal;
+    display: flex;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
+    
+  }
+  
+  .footer__contact__mail {
+    text-decoration: none;
+    font-style: normal;
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 9px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer__contact__mail:hover,
+  .footer__contact__mail:focus {
+    color: var(--main-blue);
+  }
+  
+  .footer__contact__phone {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer__contact__phone:hover,
+  .footer__contact__phone:focus {
+    color: var(--main-blue);
+  }
+  

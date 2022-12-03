@@ -1,0 +1,218 @@
+// <<==DO ZAGNIEŻDŻENIA ? ++>>
+
+.header {
+  border-bottom: 1px solid var(--border-grey);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+// <<==DO ZAGNIEŻDŻENIA ? ++>>
+
+
+
+
+// .header-position,
+// .second-list {
+//   justify-content: space-between;
+// }
+
+// .header__logo {
+//   font-family: "Raleway";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 31px;
+//   letter-spacing: 0.01em;
+//   text-decoration: none;
+//   display: flex;
+//   align-items: center;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// .header__logo--web {
+//   font-family: "Raleway";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 31px;
+//   letter-spacing: 0.003em;
+//   color: var(--main-blue);
+// }
+
+// .header__logo--studio {
+//   font-family: "Raleway";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 31px;
+//   letter-spacing: 0.03em;
+//   color: var(--second-black);
+// }
+
+// .header__logo:hover,
+// .header__logo:focus {
+//   text-decoration: underline;
+//   color: var(--main-blue);
+// }
+
+// .header__logo::after {
+//   text-decoration: underline;
+//   color: var(--main-blue);
+// }
+
+// .header__links {
+//   display: flex;
+//   gap: 46px;
+//   list-style-type: none;
+//   line-height: 0.875;
+//   align-items: center;
+// }
+
+// .agency {
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--black-main);
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// .agency-active {
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--main-blue);
+// }
+
+// .agency:hover,
+// .agency:focus {
+//   color: var(--main-blue);
+// }
+
+// .agency-active::after {
+//   content: "";
+//   height: 4px;
+//   display: block;
+//   width: 100%;
+//   background-color: var(--main-blue);
+//   border-radius: 2px;
+//   position: relative;
+//   top: 31px;
+// }
+
+// .portfolio {
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--black-main);
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// .portfolio-active {
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--main-blue);
+// }
+
+// .portfolio-active::after {
+//   content: "";
+//   height: 4px;
+//   display: block;
+//   width: 100%;
+//   background-color: var(--main-blue);
+//   border-radius: 2px;
+//   position: relative;
+//   top: 31px;
+// }
+
+// .portfolio:hover,
+// .portfolio:focus {
+//   color: var(--main-blue);
+// }
+
+// .contact {
+//   display: flex;
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--black-main);
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// .contact:hover,
+// .contact:focus {
+//   color: var(--main-blue);
+// }
+
+// .second-list {
+//   line-height: 0.875;
+//   display: flex;
+//   list-style-type: none;
+//   gap: 30px;
+//   align-items: center;
+// }
+
+// .mail-top {
+//   fill: var(--main-silver);
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--main-silver);
+// }
+
+// .mail-top:hover,
+// .mail-top:focus {
+//   fill: var(--main-blue);
+//   color: var(--main-blue);
+// }
+
+// .phone-top {
+//   fill: var(--main-silver);
+//   text-decoration: none;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.02em;
+//   color: var(--main-silver);
+//   --color3: currentColor;
+// }
+
+// .phone-top:hover,
+// .phone-top:focus {
+//   color: var(--main-blue);
+//   fill: var(--main-blue);
+// }
+
+// .mail-phone-transformation {
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }

@@ -1,0 +1,46 @@
+.instagram,
+.twitter,
+.facebook,
+.linkedin {
+  fill: var(--icon-grey);
+  background-color: var(--main-white);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--main-blue);
+    fill: var(--main-white);
+    cursor: pointer;
+  }
+}
+
+.footer__instagram,
+.footer__twitter,
+.footer__facebook,
+.footer__linkedin {
+  fill: var(--main-white);
+  background-color: var(--icon-footer-grey);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+  background-color: var(--main-blue);
+  fill: var(--main-white);
+  cursor: pointer;
+  }
+}
+

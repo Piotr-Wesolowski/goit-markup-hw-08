@@ -1,0 +1,44 @@
+.customers {
+    margin-top: 94px;
+    margin-bottom: 94px;
+    height: 184px;
+  }
+  
+  .customers__header {
+    font-style: normal;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      padding-bottom: 50px;
+  }
+  
+  .customers__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .customers li {
+    list-style: none;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .customers__list__item {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--icon-grey);
+  }
+  
+  .customers__list__item:hover,
+  .customers__list__item:focus {
+    border: 1px solid var(--main-blue);
+    fill: var(--main-blue);
+  }

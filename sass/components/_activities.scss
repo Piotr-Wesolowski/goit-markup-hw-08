@@ -1,0 +1,49 @@
+.activities__header {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+  }
+  
+  .activities__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+  }
+  
+  .activities__list img {
+    display: block;
+    position: relative;
+  }
+  
+  .activities__list__item {
+    position: relative;
+  }
+  
+  .activities__list__item--shadow {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--main-white);
+  }

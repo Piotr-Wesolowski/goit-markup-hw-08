@@ -1,0 +1,14 @@
+.purchase__backdrop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  transition: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
