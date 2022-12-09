@@ -14,3 +14,128 @@
     0px 1px 3px rgba(0, 0, 0, 0.16);
   z-index: 2;
 }
+
+.mobile-menu__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-menu__links {
+  display: flex;
+  gap: 46px;
+  list-style-type: none;
+  line-height: 0.875;
+  align-items: center;
+}
+
+.mobile-menu__links-agency {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black-main);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--active {
+    color: var(--main-blue);
+
+    &::after {
+      content: "";
+      height: 4px;
+      display: block;
+      width: 100%;
+      background-color: var(--main-blue);
+      border-radius: 2px;
+      position: relative;
+      top: 31px;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--main-blue);
+  }
+}
+
+.mobile-menu__links-portfolio {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black-main);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--active {
+    color: var(--main-blue);
+
+    &::after {
+      content: "";
+      height: 4px;
+      display: block;
+      width: 100%;
+      background-color: var(--main-blue);
+      border-radius: 2px;
+      position: relative;
+      top: 31px;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--main-blue);
+  }
+}
+
+.mobile-menu__links-contact {
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black-main);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--main-blue);
+  }
+}
+
+.mobile-menu__contact {
+  line-height: 0.875;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.mobile-menu__contact-element {
+  fill: var(--main-silver);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-silver);
+
+  &:hover,
+  &:focus {
+    fill: var(--main-blue);
+    color: var(--main-blue);
+
+    &--transformation {
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
