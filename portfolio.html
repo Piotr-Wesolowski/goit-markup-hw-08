@@ -7,7 +7,7 @@
     <meta name="description" content="First HTML class" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="Piotr Wesołowski" />
-    <title>Zadanie domowe#8 Portfolio</title>
+    <title>Zadanie domowe#7 Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
@@ -27,28 +26,28 @@
       <div class="container">
         <div class="header__content">
           <a class="header__logo" href="index.html">
-            <span class="header__logo__web">Web</span>
-            <span class="header__logo__studio">Studio</span>
+            <span class="header__logo-web">Web</span>
+            <span class="header__logo-studio">Studio</span>
           </a>
 
           <ul class="header__links">
             <li>
-              <a class="header__links__agency" href="index.html">Agencja</a>
+              <a class="header__links-agency" href="index.html">Agencja</a>
             </li>
             <li>
               <a
-                class="header__links__portfolio--active"
+                class="header__links-portfolio header__links-portfolio--active"
                 href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
-            <li><a class="header__links_contact" href="Kontakt">Kontakt</a></li>
+            <li><a class="header__links-contact" href="Kontakt">Kontakt</a></li>
           </ul>
 
           <ul class="header__contact">
             <li>
               <a
-                class="header__contact__mail header__contact--transformation"
+                class="header__contact-element header__contact-element--transformation"
                 href="mailto:info@devstudio.com"
               >
                 <svg width="16" height="12">
@@ -60,7 +59,7 @@
 
             <li>
               <a
-                class="header__contact__phone header__contact--transformation"
+                class="header__contact-element header__contact-element--transformation"
                 href="phone:+48111111111"
               >
                 <svg width="10" height="16">
@@ -77,12 +76,12 @@
     <main>
       <section class="portfolio__buttons">
         <div class="container">
-          <div class="portfolio__buttons__wrapper">
+          <div class="portfolio__buttons-wrapper">
             <h2></h2>
-            <ul class="portfolio__buttons__list">
+            <ul class="portfolio__buttons-list">
               <li>
                 <button
-                  class="portfolio__buttons--design portfolio__button--1"
+                  class="portfolio__buttons-design portfolio__button portfolio__button--1"
                   type="button"
                 >
                   Wszystkie
@@ -90,7 +89,7 @@
               </li>
               <li>
                 <button
-                  class="portfolio__buttons--design portfolio__button--2"
+                  class="portfolio__buttons-design portfolio__button portfolio__button--2"
                   type="button"
                 >
                   Strony
@@ -98,7 +97,7 @@
               </li>
               <li>
                 <button
-                  class="portfolio__buttons--design portfolio__button--3"
+                  class="portfolio__buttons-design portfolio__button portfolio__button--3"
                   type="button"
                 >
                   Aplikacje
@@ -106,7 +105,7 @@
               </li>
               <li>
                 <button
-                  class="portfolio__buttons--design portfolio__button--4"
+                  class="portfolio__buttons-design portfolio__button portfolio__button--4"
                   type="button"
                 >
                   Dizajn
@@ -114,7 +113,7 @@
               </li>
               <li>
                 <button
-                  class="portfolio__buttons--design portfolio__button--5"
+                  class="portfolio__buttons-design portfolio__button portfolio__button--5"
                   type="button"
                 >
                   Marketing
@@ -125,14 +124,14 @@
         </div>
       </section>
 
-      <section class="portfolio__main">
+      <section class="portfolio">
         <div class="container">
           <div>
-            <h2 class="portfolio__main__header"></h2>
+            <h2 class="portfolio__header"></h2>
 
-            <ul class="portfolio__main__list">
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+            <ul class="portfolio__list">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/8.jpg"
                     width="370"
@@ -140,7 +139,7 @@
                     alt="laptop screen showing 3 persons informations"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -150,16 +149,16 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">Technocrack</p>
-                  <p class="portfolio__pictures__description">
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">Technocrack</p>
+                  <p class="portfolio__pictures-description">
                     Strona internetowa
                   </p>
                 </div>
               </li>
 
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/9.jpg"
                     width="370"
@@ -167,7 +166,7 @@
                     alt="2 basketball players jumping"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -177,16 +176,16 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">
                     Grafika New Orlean vs Golden Star
                   </p>
-                  <p class="portfolio__pictures__description">Dizajn</p>
+                  <p class="portfolio__pictures-description">Dizajn</p>
                 </div>
               </li>
 
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/10.jpg"
                     width="370"
@@ -194,7 +193,7 @@
                     alt="SeaFood restaurant logo"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -204,15 +203,15 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">
                     Grafika New Orlean vs Golden Star
                   </p>
-                  <p class="portfolio__pictures__description">Aplikacja</p>
+                  <p class="portfolio__pictures-description">Aplikacja</p>
                 </div>
               </li>
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/11.jpg"
                     width="370"
@@ -220,7 +219,7 @@
                     alt="headphones"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -230,14 +229,14 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">Projekt Prime</p>
-                  <p class="portfolio__pictures__description">Marketing</p>
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">Projekt Prime</p>
+                  <p class="portfolio__pictures-description">Marketing</p>
                 </div>
               </li>
 
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/12.jpg"
                     width="370"
@@ -245,7 +244,7 @@
                     alt="2 carton boxes"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -255,14 +254,14 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">Projekt Boxes</p>
-                  <p class="portfolio__pictures__description">Aplikacja</p>
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">Projekt Boxes</p>
+                  <p class="portfolio__pictures-description">Aplikacja</p>
                 </div>
               </li>
 
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/13.jpg"
                     width="370"
@@ -270,7 +269,7 @@
                     alt="pc monitor"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -280,17 +279,17 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">
                     Inspiration has no Borders
                   </p>
-                  <p class="portfolio__pictures__description">
+                  <p class="portfolio__pictures-description">
                     Strona internetowa
                   </p>
                 </div>
               </li>
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/14.jpg"
                     width="370"
@@ -298,7 +297,7 @@
                     alt="colour magazine open on 2 pages"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -308,16 +307,16 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">
                     Magazyn Limited Edition
                   </p>
-                  <p class="portfolio__pictures__description">Dizajn</p>
+                  <p class="portfolio__pictures-description">Dizajn</p>
                 </div>
               </li>
 
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/15.jpg"
                     width="370"
@@ -325,7 +324,7 @@
                     alt="paper label tag"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -335,14 +334,14 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">Projekt LAB</p>
-                  <p class="portfolio__pictures__description">Marketing</p>
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">Projekt LAB</p>
+                  <p class="portfolio__pictures-description">Marketing</p>
                 </div>
               </li>
 
-              <li class="portfolio__text--hover">
-                <div class="portfolio__main__wrapper">
+              <li class="portfolio__text-hover">
+                <div class="portfolio__wrapper">
                   <img
                     src="./images/16.jpg"
                     width="370"
@@ -350,7 +349,7 @@
                     alt="man hands typing on laptop"
                   />
                   <div
-                    class="portfolio__overlay--background portfolio__overlay--text"
+                    class="portfolio__overlay-background portfolio__overlay-text"
                   >
                     <span
                       >Technocrack jest popularną platformą wykorzystywaną do
@@ -360,9 +359,9 @@
                     >
                   </div>
                 </div>
-                <div class="portfolio__pictures--border">
-                  <p class="portfolio__pictures__header">Growing Business</p>
-                  <p class="portfolio__pictures__description">Aplikacja</p>
+                <div class="portfolio__pictures-border">
+                  <p class="portfolio__pictures-header">Growing Business</p>
+                  <p class="portfolio__pictures-description">Aplikacja</p>
                 </div>
               </li>
             </ul>
@@ -375,37 +374,37 @@
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__contact">
-            <a class="footer__contact__logo" href="index.html">
-              <span class="footer__logo__web">Web</span>
-              <span class="footer__logo__studio">Studio</span>
+            <a class="footer__contact-logo" href="index.html">
+              <span class="footer__logo-web">Web</span>
+              <span class="footer__logo-studio">Studio</span>
             </a>
 
-            <ul class="footer__contact__list">
+            <ul class="footer__contact-list">
               <li>
-                <span class="footer__contact__street"
+                <span class="footer__contact-street"
                   >m. Warszawa, Aleje Jerozolimskie 21</span
                 >
               </li>
 
               <li>
-                <a class="footer__contact__mail" href="mailto:info@example.com"
+                <a class="footer__contact-mail" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
               <li>
-                <a class="footer__contact__phone" href="tel:+48111111111"
+                <a class="footer__contact-phone" href="tel:+48111111111"
                   >+48 111 111 111</a
                 >
               </li>
             </ul>
           </div>
           <div class="footer__social">
-            <div class="footer__social__header">
+            <div class="footer__social-header">
               <h3>Dołącz do nas</h3>
             </div>
 
-            <div class="footer__social__icons">
-              <ul class="footer__social__list">
+            <div class="footer__social-icons">
+              <ul class="footer__social-list">
                 <li>
                   <div class="footer__instagram">
                     <svg width="20" height="20">
@@ -441,15 +440,16 @@
             </div>
           </div>
           <form class="footer__newsletter">
-            <div class="footer__newsletter__header">
+            <div class="footer__newsletter-header">
               <h3>Zapisz się do newslettera</h3>
             </div>
-            <div class="footer__newsletter__box">
+            <div class="footer__newsletter-box">
               <input
-                class="footer__newsletter__input"
+                class="footer__newsletter-input"
                 type="text"
                 placeholder="E-mail"
                 id="sign-in-mail"
+                name="newsletter"
               />
 
               <button type="submit" class="footer__button">

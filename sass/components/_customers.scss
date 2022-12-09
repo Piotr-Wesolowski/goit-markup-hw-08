@@ -31,14 +31,14 @@
     justify-content: center;
   }
   
-  .customers__list__item {
+  .customers__list-item {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--icon-grey);
   }
   
-  .customers__list__item:hover,
-  .customers__list__item:focus {
+  .customers__list-item:hover,
+  .customers__list-item:focus {
     border: 1px solid var(--main-blue);
     fill: var(--main-blue);
   }

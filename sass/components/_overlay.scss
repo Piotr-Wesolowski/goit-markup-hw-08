@@ -1,8 +1,8 @@
-.portfolio__text--hover:hover .portfolio__overlay--background {
+.portfolio__text-hover:hover .portfolio__overlay-background {
     transform: translatey(0%);
   }
   
-  .portfolio__overlay--background {
+  .portfolio__overlay-background {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -14,7 +14,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .portfolio__overlay--background > span {
+  .portfolio__overlay-background > span {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -24,7 +24,7 @@
     color: var(--main-white);
   }
   
-  .portfolio__overlay--text {
+  .portfolio__overlay-text {
     display: flex;
     align-items: center;
     padding-left: 24px;
