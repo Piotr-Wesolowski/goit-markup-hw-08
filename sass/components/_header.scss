@@ -38,7 +38,7 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.003em;
-    color: var(--main-blue);
+  color: var(--main-blue);
 }
 
 .header__logo-studio {
@@ -52,12 +52,26 @@
 }
 
 .header__links {
-  display: flex;
-  gap: 46px;
-  list-style-type: none;
-  line-height: 0.875;
-  align-items: center;
+  display: none;
 }
+
+@media (min-width: 768px) {
+  .header__links {
+    display: flex;
+    gap: 46px;
+    list-style-type: none;
+    line-height: 0.875;
+    align-items: center;
+  }
+}
+
+// .header__links {
+//   display: flex;
+//   gap: 46px;
+//   list-style-type: none;
+//   line-height: 0.875;
+//   align-items: center;
+// }
 
 .header__links-agency {
   text-decoration: none;
@@ -123,6 +137,8 @@
   }
 }
 
+
+
 .header__links-contact {
   display: flex;
   text-decoration: none;
@@ -142,12 +158,26 @@
 }
 
 .header__contact {
-  line-height: 0.875;
-  display: flex;
-  list-style-type: none;
-  gap: 30px;
-  align-items: center;
+  display: none;
 }
+
+@media (min-width: 768px) {
+  .header__contact {
+    line-height: 0.875;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+  }
+}
+
+// .header__contact {
+//   line-height: 0.875;
+//   display: flex;
+//   list-style-type: none;
+//   gap: 30px;
+//   align-items: center;
+// }
 
 .header__contact-element {
   fill: var(--main-silver);
@@ -170,4 +200,3 @@
     }
   }
 }
-
