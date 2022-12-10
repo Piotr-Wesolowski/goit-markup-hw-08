@@ -168,9 +168,7 @@
 @media (min-width: 768px) {
   .header__contact {
     line-height: 0.875;
-    display: flex;
-    flex-wrap: wrap;
-
+    display: block;
     list-style-type: none;
   }
 }
