@@ -86,20 +86,20 @@
   display: block;
   list-style-type: none;
   padding-left: 40px;
-  list-style: none;
+  height: 100px;
+}
+
+.mobile-menu__contact-element-phone {
+  color: var(--main-blue);
+  text-decoration: none;
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.02em;
-}
-
-.mobile-menu__contact-element-mail {
-  color: var(--main-blue);
-  text-decoration: none;
   padding-bottom: 32px;
 }
 
-.mobile-menu__contact-element-phone {
+.mobile-menu__contact-element-mail {
   color: var(--main-silver);
   text-decoration: none;
   font-weight: 500;
