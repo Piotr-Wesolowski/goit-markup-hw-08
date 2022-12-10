@@ -242,7 +242,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .header__contact-element svg {
-    padding-right: 8px;
-  }
+}
+
+.header__contact-element svg {
+  padding-right: 8px;
+}
+
+.header__contact-icon {
+  padding-right: 8px;
 }
