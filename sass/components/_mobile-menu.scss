@@ -9,23 +9,32 @@
   left: 0px;
   top: 0px;
   background: var(--main-white);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
-    0px 1px 3px rgba(0, 0, 0, 0.16);
   z-index: 1;
+  transition: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 
-.mobile-menu__button {
-  width: 18px;
-  height: 18px;
+.mobile-menu__button-open {
+  fill: var(--black-main);
+  border: 0;
+  background-color: var(--main-white);
+}
+
+.mobile-menu__button-close {
   position: absolute;
-  top: 27px;
-  right: 25px;
-  z-index: 2;
+  top: 21px;
+  right: 25.33px;
+  fill: var(--black-main);
+  border: 0;
+  background-color: var(--main-white);
 }
 
-.mobile-menu__links li {
+.mobile-menu__links {
   padding-left: 40px;
   padding-top: 48px;
+  list-style: none;
+  margin-bottom: 302px;
 }
 
 .mobile-menu__links-agency {
@@ -40,17 +49,7 @@
   color: var(--black-main);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  // &--active {
-  //   color: var(--main-blue);
-  // }
-
-  // &::after {
-  //   content: "";
-  //   color: var(--main-blue);
-  // }
-  }
-
+}
 
 .mobile-menu__links-portfolio {
   display: block;
@@ -59,16 +58,12 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
-  padding-bottom: 36px;
+  padding-bottom: 32px;
 
   letter-spacing: 0.02em;
   color: var(--black-main);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &--active {
-    color: var(--main-blue);
-  }
 }
 
 .mobile-menu__links-contact {
@@ -78,8 +73,6 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
-  padding-bottom: 36px;
-
   letter-spacing: 0.02em;
   color: var(--black-main);
   transition-duration: 250ms;
@@ -90,108 +83,17 @@
   }
 }
 
-// .mobile-menu__content {
-//   display: flex;
-//   justify-content: space-between;
-// }
-
-// .mobile-menu__links {
-//   display: flex;
-//   gap: 46px;
-//   list-style-type: none;
-//   line-height: 0.875;
-//   align-items: center;
-// }
-
-// .mobile-menu__links-agency {
-//   text-decoration: none;
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 14px;
-//   line-height: 16px;
-//   letter-spacing: 0.02em;
-//   color: var(--black-main);
-//   transition-duration: 250ms;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-//   &--active {
-//     color: var(--main-blue);
-
-//     &::after {
-//       content: "";
-//       height: 4px;
-//       display: block;
-//       width: 100%;
-//       background-color: var(--main-blue);
-//       border-radius: 2px;
-//       position: relative;
-//       top: 31px;
-//     }
-//   }
-
-//   &:hover,
-//   &:focus {
-//     color: var(--main-blue);
-//   }
-// }
-
-// .mobile-menu__links-portfolio {
-//   text-decoration: none;
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 14px;
-//   line-height: 16px;
-//   letter-spacing: 0.02em;
-//   color: var(--black-main);
-//   transition-duration: 250ms;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-//   &--active {
-//     color: var(--main-blue);
-
-//     &::after {
-//       content: "";
-//       height: 4px;
-//       display: block;
-//       width: 100%;
-//       background-color: var(--main-blue);
-//       border-radius: 2px;
-//       position: relative;
-//       top: 31px;
-//     }
-//   }
-
-//   &:hover,
-//   &:focus {
-//     color: var(--main-blue);
-//   }
-// }
-
-// .mobile-menu__links-contact {
-//   display: flex;
-//   text-decoration: none;
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 14px;
-//   line-height: 16px;
-//   letter-spacing: 0.02em;
-//   color: var(--black-main);
-//   transition-duration: 250ms;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-//   &:hover,
-//   &:focus {
-//     color: var(--main-blue);
-//   }
-// }
-
-// .mobile-menu__contact {
-//   line-height: 0.875;
-//   display: flex;
-//   list-style-type: none;
-//   gap: 30px;
-//   align-items: center;
-// }
+.mobile-menu__contact {
+  text-decoration: none;
+  display: block;
+  list-style-type: none;
+  padding-left: 40px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
 
 // .mobile-menu__contact-element {
 //   fill: var(--main-silver);

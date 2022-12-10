@@ -1,6 +1,6 @@
 const menuOverlay = document.querySelector(".mobile-menu");
-const closeMenuButton = document.querySelector(".mobile-menu__button");
-const openMenuBtn = document.querySelector(".header__logo-web");
+const closeMenuButton = document.querySelector(".mobile-menu__button-close");
+const openMenuBtn = document.querySelector(".mobile-menu__button-open");
 
 openMenuBtn.addEventListener("click", (e) => {
   menuOverlay.classList.remove("display-none");

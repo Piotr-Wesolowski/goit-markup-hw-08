@@ -24,11 +24,14 @@
   <body>
   
     
-    <div class="mobile-menu">
-     
-  
+
+    <div class="mobile-menu display-none">  
 <div class="mobile-menu__content">
- 
+  <button type="button" class="mobile-menu__button-close">
+    <svg height="18.67" width="18.67">
+        <use href="./images/icons.svg#icon-close_mobile"></use>
+      </svg>
+  </button>
   <ul class="mobile-menu__links">
     <li><a class="mobile-menu__links-agency mobile-menu-agency--active" href="index.html">Agencja</a></li>
     <li><a class="mobile-menu__links-portfolio" href="./portfolio.html">Portfolio</a></li>
@@ -62,18 +65,19 @@
 </div>
 
     <header class="header">
-      <!-- <button type="button" class="mobile-menu__button">
-        <svg height="18" width="18">
-            <use href="./images/icons.svg#icon-close_mobile"></use>
-          </svg>
-      </button> -->
+      
       <div class="container">
         <div class="header__content">
+          
           <a class="header__logo">
             <span class="header__logo-web">Web</span>
             <span class="header__logo-studio">Studio</span>
           </a>
-
+          <button type="button" class="mobile-menu__button-open">
+            <svg height="16" width="24">
+                <use href="./images/icons.svg#icon-menu_mobile_open"></use>
+              </svg>
+          </button>
           <ul class="header__links">
             <li><a class="header__links-agency header__links-agency--active" href="index.html">Agencja</a></li>
             <li><a class="header__links-portfolio" href="./portfolio.html">Portfolio</a></li>
