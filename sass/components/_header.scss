@@ -170,6 +170,7 @@
     line-height: 0.875;
     display: block;
     list-style-type: none;
+    height: 38px;
   }
 }
 
@@ -178,19 +179,36 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 14px;
   letter-spacing: 0.02em;
   color: var(--main-silver);
+  display: flex;
+  align-items: stretch;
+}
 
-  &:hover,
-  &:focus {
-    fill: var(--main-blue);
-    color: var(--main-blue);
+@mecia (min-width: 1200px) {
+  .header__contact-element {
+    fill: var(--main-silver);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-silver);
+    display: flex;
+    align-items: center;
 
-    &--transformation {
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: var(--main-blue);
+      color: var(--main-blue);
+
+      &--transformation {
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
     }
   }
 }
