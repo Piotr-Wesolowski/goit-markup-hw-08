@@ -23,6 +23,13 @@
   align-items: center;
 }
 
+@media (min-width: 1200px) {
+  .header__content {
+    display: block;
+    align-items: center;
+  }
+}
+
 .header__logo {
   font-family: "Raleway";
   font-style: normal;
@@ -72,6 +79,16 @@
   .header__links {
     display: flex;
     gap: 46px;
+    list-style-type: none;
+    line-height: 0.875;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__links {
+    display: flex;
+    // gap: 46px;
     list-style-type: none;
     line-height: 0.875;
     align-items: center;
@@ -171,6 +188,16 @@
     display: block;
     list-style-type: none;
     height: 38px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__contact {
+    line-height: 0.875;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
   }
 }
 
