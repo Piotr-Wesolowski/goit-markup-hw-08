@@ -179,15 +179,15 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-silver);
   display: flex;
-  align-items: stretch;
+  flex-wrap: nowrap;
 }
 
-@mecia (min-width: 1200px) {
+@media (min-width: 1200px) {
   .header__contact-element {
     fill: var(--main-silver);
     text-decoration: none;
