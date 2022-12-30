@@ -20,7 +20,6 @@
 @media (min-width: 768px) {
   .header__content {
     justify-content: flex-start;
-    
   }
 }
 
@@ -109,24 +108,18 @@
 
 @media (min-width: 768px) {
   .header__links {
-    
     display: flex;
     gap: 60px;
     list-style-type: none;
     line-height: 0.875;
     align-items: center;
-    
   }
 }
 
 @media (min-width: 1200px) {
   .header__links {
     gap: 46px;
-    // display: flex;
-    // list-style-type: none;
-    // line-height: 0.875;
-    // align-items: center;
-    }
+  }
 }
 
 .header__links-agency {
@@ -158,12 +151,6 @@
   &:hover,
   &:focus {
     color: var(--main-blue);
-  }
-}
-
-@media (min-width: 1200px) {
-  .header__links-agency {
-    // font-size: 14px;
   }
 }
 
@@ -280,7 +267,7 @@
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
-    
+
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--main-silver);
