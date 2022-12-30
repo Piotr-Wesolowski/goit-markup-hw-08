@@ -22,79 +22,90 @@
   </head>
 
   <body>
-  
-    
+    <div class="mobile-menu display-none">
+      <div class="mobile-menu__content">
+        <button type="button" class="mobile-menu__button-close">
+          <svg height="18.67" width="18.67">
+            <use href="./images/icons.svg#icon-close_mobile"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu__links">
+          <li>
+            <a
+              class="mobile-menu__links-agency mobile-menu-agency--active"
+              href="index.html"
+              >Agencja</a
+            >
+          </li>
+          <li>
+            <a class="mobile-menu__links-portfolio" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a class="mobile-menu__links-contact" href="Kontakt">Kontakt</a>
+          </li>
+        </ul>
 
-    <div class="mobile-menu display-none">  
-<div class="mobile-menu__content">
-  <button type="button" class="mobile-menu__button-close">
-    <svg height="18.67" width="18.67">
-        <use href="./images/icons.svg#icon-close_mobile"></use>
-      </svg>
-  </button>
-  <ul class="mobile-menu__links">
-    <li><a class="mobile-menu__links-agency mobile-menu-agency--active" href="index.html">Agencja</a></li>
-    <li><a class="mobile-menu__links-portfolio" href="./portfolio.html">Portfolio</a></li>
-    <li><a class="mobile-menu__links-contact" href="Kontakt">Kontakt</a></li>
-  </ul>
+        <ul class="mobile-menu__contact">
+          <li>
+            <a
+              class="mobile-menu__contact-element-phone mobile-menu__contact-element--transformation"
+              href="phone:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
 
-  <ul class="mobile-menu__contact">
-    <li>
-      <a
-        class="mobile-menu__contact-element-phone mobile-menu__contact-element--transformation"
-        href="phone:+48111111111">+48 111 111 111</a>
-    </li>
-
-    <li>
-      <a
-        class="mobile-menu__contact-element-mail mobile-menu__contact-element--transformation"
-        href="mailto:info@devstudio.com">info@devstudio.com</a>
-    </li>  
-  </ul>
-  <ul class="mobile-menu__social">
-    <li>
-      <a
-        class="mobile-menu__social-item"
-        href="">Instagram</a>
-    </li>
-    <li>
-      <a
-        class="mobile-menu__social-item"
-        href="">Twitter</a>
-    </li>
-    <li>
-      <a
-        class="mobile-menu__social-item"
-        href="">Facebook</a>
-    </li>
-    <li>
-      <a
-        class="mobile-menu__social-item"
-        href="">Linkedin</a>
-    </li>
-    </ul>
-</div>
-</div>
-
-</div>
+          <li>
+            <a
+              class="mobile-menu__contact-element-mail mobile-menu__contact-element--transformation"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-menu__social">
+          <li>
+            <a class="mobile-menu__social-item" href="">Instagram</a>
+          </li>
+          <li>
+            <a class="mobile-menu__social-item" href="">Twitter</a>
+          </li>
+          <li>
+            <a class="mobile-menu__social-item" href="">Facebook</a>
+          </li>
+          <li>
+            <a class="mobile-menu__social-item" href="">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <header class="header">
-      
       <div class="container">
         <div class="header__content">
-          
           <a class="header__logo">
             <span class="header__logo-web">Web</span>
             <span class="header__logo-studio">Studio</span>
           </a>
           <button type="button" class="mobile-menu__button-open">
             <svg height="16" width="24">
-                <use href="./images/icons.svg#icon-menu_mobile_open"></use>
-              </svg>
+              <use href="./images/icons.svg#icon-menu_mobile_open"></use>
+            </svg>
           </button>
           <ul class="header__links">
-            <li><a class="header__links-agency header__links-agency--active" href="index.html">Agencja</a></li>
-            <li><a class="header__links-portfolio" href="./portfolio.html">Portfolio</a></li>
+            <li>
+              <a
+                class="header__links-agency header__links-agency--active"
+                href="index.html"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a class="header__links-portfolio" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
             <li><a class="header__links-contact" href="Kontakt">Kontakt</a></li>
           </ul>
 
@@ -131,89 +142,115 @@
       <section class="purchase section">
         <div class="purchase__backdrop is-hidden" data-modal>
           <div class="purchase__modal">
-           <button type="button" class="purchase__modal-button purchase__modal-button--close" data-modal-close>
-            <svg height="11" width="11">
+            <button
+              type="button"
+              class="purchase__modal-button purchase__modal-button--close"
+              data-modal-close
+            >
+              <svg height="11" width="11">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
-          </button>
+            </button>
 
+            <div>
+              <h3 class="purchase__modal-header">
+                Zostaw swoje dane w formularzu poniżej
+              </h3>
 
-          <div>
-            <h3 class="purchase__modal-header">Zostaw swoje dane w formularzu poniżej</h3>
+              <form>
+                <div class="purchase__modal-form">
+                  <label class="purchase__modal-label" for="name">Imię</label>
+                  <svg class="purchase__modal-icon" width="12" height="12">
+                    <use href="./images/icons.svg#icon-person"></use>
+                  </svg>
+                  <input
+                    class="purchase__modal-input"
+                    placeholder=""
+                    id="name"
+                    name="name"
+                  />
+                </div>
 
-            <form>
+                <div class="purchase__modal-form">
+                  <label class="purchase__modal-label" for="phone"
+                    >Telefon</label
+                  >
+                  <svg class="purchase__modal-icon" width="13" height="13">
+                    <use href="./images/icons.svg#icon-phone-form"></use>
+                  </svg>
+                  <input
+                    class="purchase__modal-input"
+                    placeholder=""
+                    id="phone"
+                    name="phone"
+                  />
+                </div>
 
-             
-             <div class="purchase__modal-form">   
-              <label class="purchase__modal-label" for="name">Imię</label>
-              <svg class="purchase__modal-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-              <input class="purchase__modal-input" type="text" placeholder="" id="name" name="name" />
-             </div>
+                <div class="purchase__modal-form">
+                  <label class="purchase__modal-label" for="mail">Email</label>
+                  <svg class="purchase__modal-icon" width="15" height="12">
+                    <use href="./images/icons.svg#icon-mail-form"></use>
+                  </svg>
+                  <input
+                    class="purchase__modal-input"
+                    placeholder=""
+                    id="mail"
+                    name="mail"
+                  />
+                </div>
 
-            
-             <div class="purchase__modal-form"> 
-              <label class="purchase__modal-label" for="phone">Telefon</label>
-              <svg class="purchase__modal-icon" width="13" height="13">
-                <use href="./images/icons.svg#icon-phone-form"></use>
-              </svg>
-              <input class="purchase__modal-input" type="text" placeholder="" id="phone" name="phone" />
-             </div>
+                <div class="purchase__modal-comment">
+                  <label class="purchase__modal-comment-label" for="name"
+                    >Komentarz</label
+                  >
 
-            
-             <div class="purchase__modal-form">    
-              <label class="purchase__modal-label" for="mail">Email</label>
-              <svg class="purchase__modal-icon" width="15" height="12">
-                <use href="./images/icons.svg#icon-mail-form" viewBox="0 0 32 32">
-                  <path d="M28 4h-24c-1.65 0"></use>
-              </svg>
-              <input class="purchase__modal-input" type="text" placeholder="" id="mail" name="mail" />
-           
-             </div>
-            
+                  <textarea
+                    class="purchase__modal-comment-input"
+                    rows="7"
+                    placeholder="Wprowadź tekst"
+                    id="comment"
+                    name="comment"
+                  ></textarea>
+                </div>
+              </form>
 
-              <div class="purchase__modal-comment">    
-              <label class="purchase__modal-comment-label" for="name">Komentarz</label>
-             
-              <textarea class="purchase__modal-comment-input" type="text" rows="7" placeholder="Wprowadź tekst" id="comment" name="comment"></textarea>
-            
+              <div class="purchase__modal-statement">
+                <div>
+                  <label>
+                    <input
+                      type="checkbox"
+                      id="legal"
+                      class="purchase__modal-checkbox"
+                    />
+                    <span class="purchase__modal-checkbox-border">
+                      <svg width="16" height="15">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </span>
+                  </label>
+
+                  <div class="purchase__modal-statement-text">
+                    <span class="purchase__modal-statement-text-silver"
+                      >Oświadczam iż akceptuję</span
+                    >
+                    <a href="" class="purchase__modal-statement-text-underline"
+                      >Regulamin</a
+                    >
+                    <span class="purchase__modal-statement-text-silver">i</span>
+                    <a href="" class="purchase__modal-statement-text-underline"
+                      >Politykę Prywatności.</a
+                    >
+                  </div>
+                </div>
               </div>
-            </form>
 
-            <div class="purchase__modal-statement">
-              <div>
-                <label>
-                <input type="checkbox" id="legal" class="purchase__modal-checkbox" />
-                <span class="purchase__modal-checkbox-border">
-                <svg width="16" height="15">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-                </span>
-                
-              
-              <div class="purchase__modal-statement-text">
-              <span class="purchase__modal-statement-text-silver">Oświadczam iż akceptuję</span>
-              <a href="">
-              <span class="purchase__modal-statement-text-underline">Regulamin </span>
-              </a>
-              <span class="purchase__modal-statement-text-silver">i</span>
-              <a href="">
-              <span class="purchase__modal-statement-text-underline">Politykę Prywatności.</span>
-              </a>
-              </div>
-            </label>
+              <div class="purchase__modal-button">
+                <button type="submit" class="purchase__modal-button-send">
+                  Wyślij
+                </button>
               </div>
             </div>
-
-            <div class="purchase__modal-button">
-              <button type="submit" class="purchase__modal-button-send">Wyślij
-              </button>
-            </div>
-
           </div>
-          
-        </div>
         </div>
 
         <div class="container">
@@ -328,7 +365,7 @@
                   height="294"
                   alt="woman hands holding tablet over desk"
                 />
-                              </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -534,10 +571,11 @@
               <span class="footer__logo-studio">Studio</span>
             </a>
 
-
             <ul class="footer__contact-list">
               <li>
-                <span class="footer__contact-street">m. Warszawa, Aleje Jerozolimskie 21</span>
+                <span class="footer__contact-street"
+                  >m. Warszawa, Aleje Jerozolimskie 21</span
+                >
               </li>
 
               <li>
@@ -598,23 +636,26 @@
               <h3>Zapisz się do newslettera</h3>
             </div>
             <div class="footer__newsletter-box">
-              <input class="footer__newsletter-input" type="text" placeholder="E-mail" id="sign-in-mail" name="newsletter" />
-              
-              <button type="submit" class="footer__button">Zapisz się
+              <input
+                class="footer__newsletter-input"
+                type="text"
+                placeholder="E-mail"
+                id="sign-in-mail"
+                name="newsletter"
+              />
+
+              <button type="submit" class="footer__button">
+                Zapisz się
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>
             </div>
-              
-              
-            
           </form>
         </div>
       </div>
     </footer>
-<script src="./js/modal.js"></script>
-<script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
-
