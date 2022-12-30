@@ -36,11 +36,7 @@
 @media (min-width: 1200px) {
   .header__wrapper {
     padding-left: 93px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-  }
+    }
 }
 
 .header__logo {
@@ -201,7 +197,6 @@
     list-style-type: none;
     gap: 30px;
     align-items: center;
-    // flex-grow: 1;
   }
 }
 
@@ -246,9 +241,3 @@
     margin-right: 8px;
   }
 }
-
-// @media (min-width: 1200px) {
-//   .header__contact-icon {
-//     margin-right: 8px;
-//   }
-// }

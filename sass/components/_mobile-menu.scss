@@ -19,7 +19,11 @@
   fill: var(--black-main);
   border: 0;
   background-color: var(--main-white);
-
+  position: absolute;
+  width: 24px;
+  height: 16px;
+  top: 21px;
+  right: 25.33px;
 }
 
 @media (min-width: 768px) {
@@ -38,6 +42,8 @@
   position: absolute;
   top: 21px;
   right: 25.33px;
+  width: 18.67px;
+  height: 18.67px;
   fill: var(--black-main);
   border: 0;
   background-color: var(--main-white);
@@ -69,7 +75,7 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
-  padding-bottom: 36px;
+  padding-bottom: 32px;
   letter-spacing: 0.02em;
   color: var(--black-main);
   transition-duration: 250ms;
@@ -151,4 +157,15 @@
   padding-right: 10px;
   padding-left: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.mobile-menu__social-item--Linkedin {
+  text-decoration: none;
+  color: var(--main-blue);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  padding-right: 10px;
+  padding-left: 10px;
 }
