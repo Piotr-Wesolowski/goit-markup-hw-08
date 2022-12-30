@@ -13,8 +13,23 @@
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .purchase {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img_tablet.jpg);
+  }
+}
+
 @media (min-width: 1200px) {
   .purchase {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img_desktop.jpg);
     height: 600px;
   }
 }
@@ -35,21 +50,22 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-white);
-  
-  }
+}
 
-// .purchase__header {
-//   width: 696px;
-//   height: 120px;
-//   justify-content: center;
-//   text-align: center;
-//   font-style: normal;
-//   font-size: 44px;
-//   line-height: 1.36;
-//   letter-spacing: 0.06em;
-//   text-transform: uppercase;
-//   color: var(--main-white);
-// }
+@media (min-width: 1200px) {
+  .purchase__header {
+    width: 696px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-white);
+  }
+}
 
 .purchase__modal-form {
   margin-bottom: 28px;
