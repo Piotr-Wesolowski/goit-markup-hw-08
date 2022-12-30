@@ -8,6 +8,30 @@
     width: 30px;
     height: 30px;
     top: 8px;
+    left: calc(450px - 8px - 30px);
+    background-color: var(--main-white);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+.purchase__modal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 8px;
     left: calc(528px - 8px - 30px);
     background-color: var(--main-white);
     cursor: pointer;
@@ -19,6 +43,7 @@
   &:focus {
     cursor: pointer;
   }
+}
 }
 
 .purchase__modal-button-send {
