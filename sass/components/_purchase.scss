@@ -4,13 +4,19 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/Img.jpg);
+    url(../images/Img_mobile.jpg);
   background-size: cover;
   display: flex;
-  height: 600px;
+  height: 400px;
   padding: 0;
-  max-width: 1600px;
+  // max-width: 1600px;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .purchase {
+    height: 600px;
+  }
 }
 
 .purchase__position {
@@ -19,17 +25,30 @@
 }
 
 .purchase__header {
-  width: 696px;
-  height: 120px;
+  width: 365px;
+  height: 84px;
   justify-content: center;
   text-align: center;
   font-style: normal;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-white);
 }
+
+// .purchase__header {
+//   width: 696px;
+//   height: 120px;
+//   justify-content: center;
+//   text-align: center;
+//   font-style: normal;
+//   font-size: 44px;
+//   line-height: 1.36;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
+//   color: var(--main-white);
+// }
 
 .purchase__modal-form {
   margin-bottom: 28px;
