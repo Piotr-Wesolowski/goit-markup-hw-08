@@ -5,6 +5,13 @@
   padding-bottom: 60px;
 }
 
+@media (min-width: 1200px) {
+  .footer {
+    padding-bottom: 0;
+  }
+  }
+  
+
 .footer__contact {
   display: flex;
   justify-content: center;
@@ -21,13 +28,6 @@
     display: block;
   }
 }
-
-// @media (min-width: 1200px) {
-//   .footer__wrapper-logo-contact {
-//     // display: flex;
-//     // flex-wrap: wrap;
-//   }
-// }
 
 @media (min-width: 768px) {
   .footer__wrapper-tablet {
@@ -78,6 +78,12 @@
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .footer__contact-logo {
+    justify-content: flex-start;
+  }
 }
 
 .footer__contact-logo:hover,
