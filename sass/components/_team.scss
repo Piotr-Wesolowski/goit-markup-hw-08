@@ -1,5 +1,7 @@
 .team {
   background: var(--second-white);
+  display: flex;
+  align-content: space-between;
   // height: 708px;
   // padding-top: 0;
   // padding-bottom: 0;
@@ -16,15 +18,15 @@
 
 .team__list {
   list-style-type: none;
-  align-content: center;
+  // align-content: space-between;
   background-size: cover;
 }
-
 
 @media (min-width: 768px) {
   .team__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 
