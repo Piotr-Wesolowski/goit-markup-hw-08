@@ -104,7 +104,7 @@
 }
 
 .footer__button {
-  margin-top: 20px;
+  // margin-top: 20px;
   position: relative;
   border: none;
   width: 200px;
@@ -130,6 +130,12 @@
     left: 148px;
   }
 }
+
+// @media (min-width: 768px) {
+//   .footer__button {
+//     margin-top: 70px;
+//   }
+// }
 
 .portfolio__buttons-design {
   background: var(--second-white);
