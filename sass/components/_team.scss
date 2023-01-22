@@ -16,7 +16,10 @@
 
 .team__list {
   list-style-type: none;
+  align-content: center;
+  background-size: cover;
 }
+
 
 @media (min-width: 768px) {
   .team__list {
