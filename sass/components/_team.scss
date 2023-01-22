@@ -1,10 +1,12 @@
 .team {
   background: var(--second-white);
-  display: flex;
-  align-content: space-between;
-  // height: 708px;
-  // padding-top: 0;
-  // padding-bottom: 0;
+  padding-top: 60px;
+}
+
+@media (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+  }
 }
 
 .team__header {
@@ -16,22 +18,20 @@
   padding-bottom: 30px;
 }
 
+@media (min-width: 1200px) {
+  .team__header {
+    padding-bottom: 50px;
+  }
+}
+
 .team__list {
   list-style-type: none;
-  // align-content: space-between;
-  background-size: cover;
-}
+  }
 
 @media (min-width: 768px) {
   .team__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 1200px) {
-  .team__list {
     justify-content: space-between;
   }
 }
