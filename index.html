@@ -340,8 +340,8 @@
                   <p>APLIKACJE KOMPUTEROWE</p>
                 </div>
                 <img
-                  src="./images/1_1x_desktop.jpg"
-                  srcset="1_1x_desktop.jpg 1x, 1_2x_desktop.jpg 2x"
+                  src="./images/1_1x desktop.jpg"
+                  srcset="1_1x desktop.jpg 1x, 1_2x desktop.jpg 2x"
                   width="370"
                   height="294"
                   alt="man hands typing on keyboard"
@@ -353,8 +353,8 @@
                   <p>APLIKACJE MOBILNE</p>
                 </div>
                 <img
-                  src="./images/2_1x_desktop.jpg"
-                  srcset="2_1x_desktop.jpg 1x, 2_2x_desktop.jpg 2x"
+                  src="./images/2_1x desktop.jpg"
+                  srcset="2_1x desktop.jpg 1x, 2_2x desktop.jpg 2x"
                   width="370"
                   height="294"
                   alt="woman hand holding mobile over laptop keyboard"
@@ -366,8 +366,8 @@
                   <p>ROZWIĄZANIA GRAFICZNE</p>
                 </div>
                 <img
-                  src="./images/3_1x_desktop.jpg"
-                  srcset="3_1x_desktop.jpg 1x, 3_2x_desktop.jpg 2x"
+                  src="./images/3_1x desktop.jpg"
+                  srcset="3_1x desktop.jpg 1x, 3_2x desktop.jpg 2x"
                   width="370"
                   height="294"
                   alt="woman hands holding tablet over desk"
@@ -384,13 +384,22 @@
             <h2 class="team__header">Nasz zespół</h2>
             <ul class="team__list">
               <li class="team_pic">
-                <img
-                  src="./images/4_1x.jpg"
-                  srcset="4_1x.jpg 1x, 4_2x.jpg 2x"
-                  width="270"
-                  height="260"
-                  alt="young bearded man with glasses in brown shirt smiling"
-                />
+                <picture>
+                  <img
+                    src="./images/4_1x desktop.jpg"
+                    srcset="
+                  ./images/4_1x mobile.jpg 450w,
+                  ./images/4_2x mobile.jpg 900w,
+                  ./images/4_1x mobile.jpg 354w,
+                  ./images/4_2x mobile.jpg 708w;
+                  ./images/4_1x desktop.jpg 270w,
+                  ./images/4_1x desktop.jpg 540w;
+                  "
+                    sizes="(min-width: 480px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                    min-width="270"
+                    alt="young bearded man with glasses in brown shirt smiling"
+                  />
+                </picture>
                 <p class="team__name">John Doe</p>
                 <p class="team__job">Product Designer</p>
                 <div class="team__icon">
@@ -418,10 +427,17 @@
               </li>
               <li>
                 <img
-                  src="./images/5_1x.jpg"
-                  srcset="5_1x.jpg 1x, 5_2x.jpg 2x"
-                  width="270"
-                  height="260"
+                  src="./images/5_1x desktop.jpg"
+                  srcset="
+                5_1x mobile.jpg 450w,
+                5_2x mobile.jpg 900w,
+                5_1x mobile.jpg 354w,
+                5_2x mobile.jpg 708w;
+                5_1x desktop.jpg 270w,
+                5_1x desktop.jpg 540w;
+                "
+                  sizes="(min-width: 480px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                  min-width="270"
                   alt="young blond hair woman with glasses smiling"
                 />
                 <p class="team__name">John Doe</p>
@@ -451,10 +467,17 @@
               </li>
               <li>
                 <img
-                  src="./images/6_1x.jpg"
-                  srcset="6_2x.jpg 2x, 6_3x.jpg 3x"
-                  width="270"
-                  height="260"
+                  src="./images/6_1x desktop.jpg"
+                  srcset="
+                6_1x mobile.jpg 450w,
+                6_2x mobile.jpg 900w,
+                6_1x mobile.jpg 354w,
+                6_2x mobile.jpg 708w;
+                6_1x desktop.jpg 270w,
+                6_1x desktop.jpg 540w;
+                "
+                  sizes="(min-width: 480px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                  min-width="270"
                   alt="young man in blue shirt smiling"
                 />
                 <p class="team__name">John Doe</p>
@@ -484,10 +507,17 @@
               </li>
               <li>
                 <img
-                  src="./images/7_1x.jpg"
-                  srcset="7_2x.jpg 2x, 7_3x.jpg 3x"
-                  width="270"
-                  height="260"
+                  src="./images/7_1x desktop.jpg"
+                  srcset="
+                7_1x mobile.jpg 450w,
+                7_2x mobile.jpg 900w,
+                7_1x mobile.jpg 354w,
+                7_2x mobile.jpg 708w;
+                7_1x desktop.jpg 270w,
+                7_1x desktop.jpg 540w;
+                "
+                  sizes="(min-width: 480px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                  min-width="270"
                   alt="young bearded man with glasses in black t-shirt"
                 />
                 <p class="team__name">John Doe</p>
