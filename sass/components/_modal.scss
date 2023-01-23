@@ -8,6 +8,16 @@
   border-radius: 4px;
 }
 
+@media screen and (max-width: 1199px) {
+  .purchase__modal {
+    width: 95%;
+    max-width: 450px;
+    height: 95%;
+    max-height: 609px;
+    overflow: scroll;
+  }
+}
+
 @media (min-width: 1200px) {
   .purchase__modal {
     // position: relative;

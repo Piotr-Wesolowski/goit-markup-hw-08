@@ -4,10 +4,11 @@
   align-items: center;
 
   &--close {
-    position: absolute;
+    position: relative;
     width: 30px;
     height: 30px;
     top: 8px;
+    margin: right: 8px;
     left: calc(450px - 8px - 30px);
     background-color: var(--main-white);
     cursor: pointer;
