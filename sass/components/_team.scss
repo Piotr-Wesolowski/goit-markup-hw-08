@@ -1,15 +1,19 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .team {
   background: var(--second-white);
   padding-top: 60px;
   padding-bottom: 60px;
-  
 }
 
 @media (min-width: 1200px) {
   .team {
     padding-top: 94px;
     padding-bottom: 94px;
-    
   }
 }
 
@@ -72,5 +76,14 @@
 .team__icon {
   padding-top: 28px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (min-width: 1200px) {
+  .team__icon {
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

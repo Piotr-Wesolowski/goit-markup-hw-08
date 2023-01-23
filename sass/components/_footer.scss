@@ -26,6 +26,7 @@
 @media (min-width: 768px) {
   .footer__wrapper-logo-contact {
     display: block;
+    margin-bottom: 60px;
   }
 }
 
@@ -158,7 +159,7 @@
   color: rgba(255, 255, 255, 0.6);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
 }
 
 .footer__contact-phone:hover,
@@ -190,12 +191,12 @@
 .footer__social-icons {
   display: flex;
   justify-content: center;
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
 }
 
-.footer__social {
-  padding-left: 32px;
-}
+// .footer__social {
+//   // padding-left: 32px;
+// }
 
 @media (min-width: 1200px) {
   .footer__social {
@@ -218,6 +219,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 60px;
   }
 
   @media (min-width: 1200px) {
@@ -278,7 +280,9 @@
 
 .footer__newsletter-input {
   outline: 0;
-  width: 358px;
+  // width: 358px;
+  min-width: 358px;
+  width: 100%;
   height: 50px;
   font-family: "Roboto";
   font-style: normal;
